@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block container %}
+    <main>
+        <form method="POST">
+            <h1>Form</h1>
+            {{ form.csrf_token }}
+            {{ form.companyName(class='input', placeholder="Company Name") }}
+            {{ form.companyOwner(class='input', placeholder="Company Owner") }}
+            {{ form.companyAddress(class='input', placeholder="Company Address") }}
+            {{ form.companyCreationDate(class='input', placeholder="Company Creation Date") }}
+
+            {{ form.submit(class="button") }}
+        </form>
+    </main>
+{% endblock %}

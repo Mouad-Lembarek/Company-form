@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Kufam:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
+
+
+body{
+    font-family:Kufam;
+   
+    background-size:cover;
+
+
+}
+form{
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background: rgb(196, 161, 161);
+
+}
+h1{
+    margin : 0 0 30px 0;
+    text-align: center;
+    font-size: 2.5em;
+    color: brown;
+}
+.number {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 3Opx;
+    width: 30px;
+    display: inline-block;
+    font-size:0.8em;
+    margin-right: 4px;
+    line-height:30px;
+    text-align: center;
+    border-radius:50%;
+}
+fieldset{
+    border: none;
+    margin-bottom: 30px;
+}
+legend{
+    font-size:1.4rem;
+    margin-bottom:10px;
+
+}
+
+label{
+    display:block;
+    margin-bottom:12px;
+}
+input,
+textarea,
+select{
+    border:none;
+    font-size:16px;
+    height: auto;
+    width: 100%;
+    padding: 13px;
+    margin: 0;
+    margin-bottom:20px;
+    background-color:rgb(200, 223, 221);
+}
+
+button{
+    padding: 15px 30px;
+    color: #fff;
+    background-color:darkgoldenrod;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid transparent;
+    border-color: burlywood;
+    box-shadow: 10px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color:#fff;
+    color: darkgoldenrod;
+    box-shadow: 1px 1px 3px salmon;
+}
